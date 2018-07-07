@@ -129,6 +129,11 @@ footer {
     background: #4aaaa5;
     border-bottom: 0;
   }
+
+  .img-responsive {
+    width: 480px;
+    height: 300px;
+  }
   
   /**
  * Media Query
