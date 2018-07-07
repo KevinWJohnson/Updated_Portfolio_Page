@@ -1,0 +1,213 @@
+
+
+body {
+    padding-top: 70px;
+    color: #777;
+    background: url("../images/concrete_seamless.png");
+  }
+
+  .index-container {
+    width: 100%;
+    max-width: 960px;
+    /*margin: 0 auto;*/
+    margin-top: 20px;
+    margin-left: 195px;
+    clear: both;
+    padding-top: 30px;
+    padding-bottom: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: #fff;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 960px;
+  /*margin: 0 auto;*/
+  margin-top: 20px;
+  margin-left: 195px;
+  clear: both;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background: #fff;
+}
+
+.portfolio-container {
+  width: 100%;
+  max-width: 960px;
+  /*margin: 0 auto;*/
+  margin-top: 20px;
+  margin-left: 195px;
+  clear: both;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background: #fff;
+}
+
+#columnsContainer {
+  margin-left: 190px;
+}
+
+h3 a {
+  color: #fff;
+}
+
+.pull-left{
+  float: left;
+}
+
+.navbar-light .navbar-brand{
+    background: #4aaaa5;
+    color: #fff;
+    border-color: #ccc;
+  }
+
+.btn.btn-primary{
+    background: #4aaaa5 !important;
+    color: #fff !important;
+    border-color: #ccc;
+    margin-top: 10px;
+}
+
+.page-header {
+    color: #4aaaa5;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
+  margin-top: 180px;
+}
+
+
+
+/* portfolio page */
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0px 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  /**
+ * Media Query
+ **/
+/*
+  The width of the wrapper will be 960px
+  at browser widths above 768px
+*/
+
+body my-navbar {
+  width: 960px;
+}
+
+
+
+
+@media screen and (max-width: 960px) {
+  
+  .index-container {
+    margin-left: 5px;
+  }
+  
+  .contact-container {
+    margin-left: 5px;
+  }
+  
+  .portfolio-container {
+    margin-left: 0px;
+  }
+  
+  #columnsContainer {
+    margin-left: 190px;
+  }
+    
+    
+  }
+
+
+@media screen and (max-width: 768px) {
+  
+.index-container {
+  margin-left: 5px;
+}
+
+.contact-container {
+  margin-left: 5px;
+}
+
+.portfolio-container {
+  margin-left: 0px;
+}
+
+#columnsContainer {
+  margin-left: 190px;
+}
+  
+  
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 640px and below */
+@media screen and (max-width: 640px) {
+
+  .index-container {
+    margin-left: 5px;
+  }
+  
+  .contact-container {
+    margin-left: 5px;
+  }
+  
+  .portfolio-container {
+    margin-left: 0px;
+  }
+
+  #columnsContainer {
+    margin-left: 130px;
+  }
+  
+}
+
