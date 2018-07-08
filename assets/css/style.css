@@ -60,12 +60,23 @@ body {
   margin-left: 190px;
 }
 
+
 h2 {
   text-decoration: underline;
 }
 
-h3 a {
+
+.project-links {
   color: #fff;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.projectTitle{
+  text-decoration: underline;
+  font-size: 24px;
+  margin-bottom: 0px;
 }
 
 #email{
