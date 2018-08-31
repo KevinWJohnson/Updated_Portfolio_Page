@@ -88,6 +88,11 @@ h2 {
   float: left;
 }
 
+a.navbar-brand {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .navbar-light .navbar-brand{
     background: #4aaaa5;
     color: #fff;
@@ -163,6 +168,15 @@ footer {
     height: 300px;
   }
   
+  .card bg-color {
+    background: #4aaaa5;
+  }
+
+  .card-deck-wrapper {
+    margin-left: 150px;
+  }
+  
+
   /**
  * Media Query
  **/
