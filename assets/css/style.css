@@ -91,6 +91,7 @@ h2 {
 a.navbar-brand {
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 10px;
 }
 
 .navbar-light .navbar-brand{
@@ -161,6 +162,7 @@ footer {
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
+    
   }
 
   .img-responsive {
@@ -175,6 +177,27 @@ footer {
   .card-deck-wrapper {
     margin-left: 150px;
   }
+
+.card-body {
+  background: #ccc;
+  height: 350px;
+  position: relative;
+}
+
+.cardBorder {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1;
+}
+
+.card-title {
+  margin-top: 20px;
+}
+
+.cardLinks  {
+  position: absolute;
+  bottom: 20px;
+}
+
   
 
   /**
